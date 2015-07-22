@@ -1,0 +1,12 @@
+Our Flappy Potter :)
+
+Welcome to the best Flappy Potter game there is!
+
+Here will be the game
+
+The highest scorers are:
+<ul>
+<li> Me</li>
+<li>-Myself</li>
+<li>I</li>
+</ul>

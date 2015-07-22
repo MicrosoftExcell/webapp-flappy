@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Our Flappy Potter :)</title>
+    <link rel="stylesheet" href="../assets/style.css"/>
+    <link rel="stylesheet" href="../lib/bootstrap.css"/>
+</head>
+<body>
+<div class="container">
+
+    <div class="jumbotron">
+
+<h1>The Best Flappy Wizarding Game :)</h1>
+        <h2>Welcome to the best Flappy Potter game there is!</h2>
+    </div>
+    <div class="col-xs-8">
+
+
+        <p class="virus">To restart the game, press F5</p>
+<p id="gameLink">
+        <div id="game"> </div>
+</p>
+</div>
+    <div class="col-xs-1"></div>
+    <div class="col-xs-3">
+        <p>.</p>
+        <p>.</p>
+        <p>.</p>
+
+
+        <p>The top 10 scores are: </p>
+<ol id="scoreBoard">
+    <!--<li class="gold">Me ~ 10042</li>
+    <li class="silver">Myself ~ 9999</li>
+    <li class="bronze">I ~ 666</li> -->
+
+</ol>
+        <img src="../assets/MOM.png" class="img-rounded" />
+        <p>Ministry of Magic Approved</p>
+        </div>
+    <div id="greeting">
+
+        <form id="greeting-form" method="post" action="/score">
+            <div class="form-group">
+                <label for="fullName">What's your name?</label>
+                <input type="text" id="fullName"
+                       name="fullName" class="form-control" placeholder="You Know Who" required>
+                <label for="email">What's your email?</label>
+                <input type="email" id="email"
+                       name="email" class="form-control" placeholder="Voldemort@DeathEaters.co.uk" required>
+                <input type="hidden" id="score" name="score" value="0">
+            </div>
+            <h3>Save your score</h3>
+            <button class="btn btn-default" type="submit">OK</button>
+        </form>
+    </div>
+</div>
+
+
+<script src="../lib/jquery.js"></script>
+<script src="../lib/phaser.min.js"></script>
+<script src="../js/flappy.js"></script>
+</body>
+</html>
